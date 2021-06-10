@@ -1,0 +1,39 @@
+$dark-100:  #1f2041;
+$dark-75:   #1f2041 75%;
+$dark-50:  #1f2041 50%;
+$dark-25:  #1f2041 25%;
+$dark-5: #1f2041  5%;
+$purple:  #BC9CFF;
+$green: #6FCF97;
+
+@mixin h1 {
+  font: {
+    size: 24px;
+    weight: 700;
+  }
+  color: $dark-100;
+}
+
+@mixin h2 {
+  font: {
+    size: 19px;
+    weight: 700;
+  }
+  color: $dark-100;
+}
+
+@mixin h3 {
+  font: {
+    size: 12px;
+    weight: 700;
+  }
+  color: $dark-100;
+}
+
+@mixin body {
+  font: {
+    size: 14px;
+    weight: 700;
+  }
+  color: $dark-75;
+}
